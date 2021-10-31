@@ -29,7 +29,7 @@ def main():
 			if "Free" in game_price:
 				print_game_info(game_name, game_price, more_info, game_tags)
 		else:
-			print('Please type f to know about free games and p to know about paid games')
+			print('Error, Please run the program again.')
 			exit(0)
 	print('File Saved as info.txt')	
 
